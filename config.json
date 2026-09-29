@@ -1,0 +1,30 @@
+{
+  "search_directories": [
+    "C:\\Users\\asithlud\\Downloads\\TUTUKA"
+  ],
+  "archive_directory": "C:\\Users\\asithlud\\Downloads\\TUTUKA\\Archive",
+  "file_extensions": [".pdf"],
+  "bin_pattern": "^[A-Za-z0-9\\-]{16}$",
+  "bin_length": 16,
+  "case_sensitive_match": false,
+
+  "print_method": "shell",
+  "print_mode": "manual",
+  "printer_name": "\\\\soj3serv16.corp.idemia.com\\SOJ3-PR04",
+  "sumatra_path": "C:\\Tools\\SumatraPDF\\SumatraPDF.exe",
+  "print_wait_seconds": 1,
+  "print_pages_separately": true,
+
+  "multiple_match_behavior": "flag_only",
+
+  "index_refresh_seconds": 5,
+
+  "archive_retry_attempts": 5,
+  "archive_retry_delay_seconds": 1.5,
+
+  "log_directory": "C:\\WaybillMatcher\\logs",
+  "log_max_bytes": 5242880,
+  "log_backup_count": 5,
+
+  "rescan_cooldown_seconds": 5
+}
